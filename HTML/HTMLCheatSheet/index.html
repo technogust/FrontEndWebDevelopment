@@ -1,29 +1,150 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>HTML Cheat Sheet</title>
-
+		<title>Techno Gust</title>
 	</head>
 	<body>
-		<!-- Heading -->
-		<h1 title="My Website">Heading One</h1>
-		<h2>Heading Two</h2>
-		<h3>Heading Three</h3>
-		<h4>Heading Four</h4>
+		<a href="blog.html" target="_blank">go to Blogs</a>
+		<hr>
+		<!-- Headings -->
+		<h1>Introduction</h1>
+		<h2>Videos</h2>
+		<h3>Latest Uploads</h3>
+		<h4>This Week</h4>
+		<h5>Last 4 days</h5>
+		<h6>Today</h6>
+		
 		<!-- Paragraph -->
 		<p>
-			Lorem ipsum dolor sit <strong>this is bold</strong> consectetur adipisicing elit.<em> This is italic. </em> Blanditiis consequatur 
-			velit <a title="Bing" href="http://www.bing.com" target="_blank">go to bing</a> asperiores mollitia, modi illum. Quidem at rerum non facilis vero, mollitia in commodi libero dolore fugiat, eveniet eos? Amet?	
+			Welcome to <strong>Techno Gust</strong> find all <em>stuff</em> you will going to be needing for data science and machine learning. <a title="begin your journey" href="https://www.youtube.com/channel/UC5u5NQjMIr4XOd1EzHbfu3g/featured" target="_blank">click here</a> for an exciting journey.
 		</p>
+
 		<!--Lists-->
 		<ul>
-			<li>Website</li>
-			<li>offline material</li>
+			<li>Python</li>
+			<li>Java</li>
+			<li>C</li>
+			<li> <a href="https://w3schools.com" target="_blank">HTML</a></li>
 		</ul>
 		<ol>
-			<li>Website</li>
-			<li>offline material</li>
+			<li>Python</li>
+			<li>Java</li>
+			<li>C</li>
+			<li>HTML,CSS & JS</li>
 		</ol>
-	</body>
 
+		<!--Tables-->
+		<table>
+			<thead>
+				<tr>
+					<th>Name</th>
+					<th>Age</th>
+					<th>Contact</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>Akash Mittal</td>
+					<td>22</td>
+					<td>880000098</td>
+				</tr>
+				<tr>
+					<td>killer computer</td>
+					<td>2</td>
+					<td>66625</td>
+				</tr>
+			</tbody>
+		</table>
+
+		<br>
+		<hr>
+		<br>
+
+		<!-- forms-->
+		
+		<form action="process.php" method="POST">
+			<div>
+				<label>First Name</label>
+				<input type="text" name="firstName" placeholder="Enter first name here">
+			
+			</div>
+			<br>
+			<div>
+			
+				<label>Last Name</label>
+				<input type="text" name="lastName" placeholder="Enter last name here">
+			
+			</div>
+			<br>
+			<div>
+			
+				<label>Email</label>
+				<input type="email" name="email">
+			
+			</div>
+			<br>
+			<div>
+			
+				<label>Message</label>
+				<textarea name="message" placeholder="type your message here"></textarea>
+			
+			</div>
+			<br>
+			<div>
+				<label>Gender</label>
+				<select>
+					<option value="null">Select</option>
+					<option value="male">Male</option>
+					<option value="female">Female</option>
+					<option value="other">Other</option>
+				</select>
+			</div>
+			<br>
+			<div>
+				<label>Age:</label>
+				<input type="number" name="age" placeholder="Enter your age">
+			</div>
+			<br>
+			<div>
+				<label>Date of Birth:</label>
+				<input type="date" name="birthday">
+			</div>
+			<br>
+			<input type="submit" name="submit" value="Click to Submit">
+		</form>
+		<br>
+
+		<button>Click me</button>
+
+		<div>
+			<br>
+			<!--Images-->
+			<a href="https://ae01.alicdn.com/kf/HTB17I1kSpXXXXXsaVXXq6xXFXXXe/Ping-by-Tobias-Dostal-Gimmick-online-instruct-Coin-Magic-Tricks-Mentalism-Stage-Close-Up-Street-Accessories.jpg" alt="PING" title="Ping">
+			<img src="https://ae01.alicdn.com/kf/HTB17I1kSpXXXXXsaVXXq6xXFXXXe/Ping-by-Tobias-Dostal-Gimmick-online-instruct-Coin-Magic-Tricks-Mentalism-Stage-Close-Up-Street-Accessories.jpg" width="300">
+			</a>
+		</div>
+
+		<br>
+
+		<div>
+			<blockquote cite="https://www.youtube.com/channel/UC5u5NQjMIr4XOd1EzHbfu3g/featured"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</blockquote>
+		</div>
+
+		<br>
+
+		<div>
+			<p>
+				<cite>ever </cite>heard about <abbr title="National Aeronautics and Space Administration">NASA?</abbr>
+			</p>
+		</div>
+
+		<div style="margin-top: 500px"></div>
+
+
+	</body>
 </html>
