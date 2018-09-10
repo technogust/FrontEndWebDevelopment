@@ -1,0 +1,24 @@
+﻿<!DOCTYPE html>
+<html>
+<style>
+table, td, th{
+	border:1px solid black;
+	width:10px;
+}
+td, th{
+	padding:15px;
+}
+</style>
+<table>
+<tr>
+<th>Name</th>
+<th>Age</th>
+<th>Place</th>
+</tr>
+<tr>
+<td>Tola</td>
+<td>Gola</td>
+<td>Delhi</td>
+</tr>
+</table>
+</html>
